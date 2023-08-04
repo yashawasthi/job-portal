@@ -27,6 +27,7 @@ exports.login = async (req, res) => {
       'secret123'
     );
     const { password, ...others } = user._doc;
+    others.user=token;
     return res
     .cookie("access_token", token, {
       httpOnly: true,

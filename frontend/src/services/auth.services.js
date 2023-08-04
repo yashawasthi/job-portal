@@ -9,6 +9,7 @@ const login = async (email, password) => {
       password,
     })
     .then (response => {
+      console.log("This is response "+response.data);
       if (response.data.user) {
         localStorage.setItem ('token', JSON.stringify (response.data.user));
       }
