@@ -8,7 +8,7 @@ app.use (cors ());
 app.use (express.json ());
 
 mongoose.connect (
-  'mongodb+srv://clusteradmin:7Oiy5dnAy1tj66GX@cluster0.fgpnnes.mongodb.net/?retryWrites=true&w=majority',
+  'mongodb+srv://yashzoworkid:IwpsfTZDZbWx1ain@cluster0.zfbnx41.mongodb.net/?retryWrites=true&w=majority',
   {useUnifiedTopology: true, useNewUrlParser: true}
 );
 
